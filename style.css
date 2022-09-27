@@ -1,0 +1,47 @@
+body{
+    background-color:blue;
+    color: black;
+}
+p{
+    font-size: 16px;
+
+}
+h1{
+    background-color:pink;
+    
+}
+header,h1{
+    font-size: 30px;
+}
+main{
+    margin:auto;
+    max-width: 600px;
+}
+main,h2{
+font-size: 50px;
+text-align: normal;
+}
+footer{
+    margin:auto;
+    padding: 30px;
+    
+}
+
+footer,small{
+    text-align: center;
+}
+.flexbox{
+    display: flex;
+    height: 500px;
+    flex-wrap: wrap;
+    align-content: space-around;
+    
+    background-color: pink;
+}
+.flexbox > div{
+    background-color: blue;
+    margin: 15px;
+    padding: 25px;
+    font-size: 40px;
+
+}
